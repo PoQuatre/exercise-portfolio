@@ -39,6 +39,17 @@ nav li {
   border-radius: 5px;
   border-width: 1px;
   border-style: solid;
+  border-color: var(--light);
+}
+
+.nav-button:hover {
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.nav-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--light-transparent);
 }
 
 @media screen and (max-width: 55em) {
