@@ -6,6 +6,7 @@ nav {
   align-items: center;
   padding: 0.5rem 10rem;
   background-color: var(--dark);
+  z-index: 10;
 }
 
 nav ul {
@@ -46,7 +47,7 @@ nav li {
   }
 }
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 40.5em) {
   nav {
     padding: 0.5rem 1rem;
   }
