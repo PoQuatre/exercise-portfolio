@@ -1,0 +1,17 @@
+:root {
+  --light: #f7f7f2;
+  --dark: #121113;
+  --primary: #899878;
+  --accent-light: #e4e6c3;
+  --accent-dark: #374a44;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--light);
+  font-family: Montserrat, sans-serif;
+}
+
+body {
+  margin: 0;
+}
