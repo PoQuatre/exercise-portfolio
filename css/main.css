@@ -30,6 +30,17 @@ main section:nth-child(odd) h2::before {
   background: var(--accent-dark);
 }
 
+.grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.fab {
+  font-size: 4rem;
+}
+
 @media screen and (max-width: 55em) {
   main section {
     padding: 2rem 5rem;
