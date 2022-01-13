@@ -1,8 +1,8 @@
-main section {
+main > section {
   padding: 2rem 10rem;
 }
 
-main section:nth-child(odd) {
+main > section:nth-child(odd) {
   background-color: var(--primary);
   color: var(--light);
 }
@@ -25,7 +25,7 @@ main h2::before {
   z-index: -1;
 }
 
-main section:nth-child(odd) h2::before {
+main > section:nth-child(odd) h2::before {
   transform: rotateZ(-2deg);
   background: var(--accent-dark);
 }
@@ -42,13 +42,13 @@ main section:nth-child(odd) h2::before {
 }
 
 @media screen and (max-width: 55em) {
-  main section {
+  main > section {
     padding: 2rem 5rem;
   }
 }
 
 @media screen and (max-width: 40.5em) {
-  main section {
+  main > section {
     padding: 2rem 1rem;
   }
 }

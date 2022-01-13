@@ -12,6 +12,8 @@ header h1 {
   position: relative;
   color: var(--light);
   z-index: 1;
+  margin: 0 1rem;
+  text-align: center;
 }
 
 header h1::before {
