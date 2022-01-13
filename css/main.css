@@ -47,7 +47,7 @@ main > section:nth-child(odd) h2::before {
   }
 }
 
-@media screen and (max-width: 40.5em) {
+@media screen and (max-width: 41em) {
   main > section {
     padding: 2rem 1rem;
   }
