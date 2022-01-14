@@ -93,7 +93,11 @@
         <h2>Me Contacter</h2>
 
         <div>
-          <form action="contact" method="get">
+          <form
+            action="contact"
+            method="get"
+            onsubmit="event.preventDefault(); alert('This is not yet implemented');"
+          >
             <textarea
               name="message"
               id="message"
